@@ -2,7 +2,7 @@
 #define TESTPATIENT_H
 #include "Patient.h"
 
-namespace seneca{
+namespace triage{
     class TestPatient : public Patient {
         //no member variables
     public:

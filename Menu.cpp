@@ -2,7 +2,7 @@
 #include "Time.h"
 #include "Utils.h"
 
-namespace seneca {
+namespace triage {
 	Menu::Menu(const char* menuContent, int numberOfTabs) {
 		//check if menuContent is valid, if it is copy it, if not set member variables to safe state
 		if (menuContent != nullptr)

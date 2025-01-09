@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Ticket.h"
 using namespace std;
-namespace seneca {
+namespace triage {
     Ticket::Ticket(int number) {
         m_number = number;
     }

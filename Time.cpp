@@ -1,7 +1,7 @@
 #include "Time.h"
 #include "Utils.h"
 
-namespace seneca {
+namespace triage {
 	Time& Time::reset() {
 		m_minutes = U.getTime();
 		return *this;

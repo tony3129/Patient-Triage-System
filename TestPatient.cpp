@@ -2,7 +2,7 @@
 
 int nextTestTicket =1;
 
-namespace seneca{
+namespace triage{
     //call Patient constructor and increment nextTestTicket global variable
     TestPatient::TestPatient() : Patient(nextTestTicket){
         nextTestTicket++;

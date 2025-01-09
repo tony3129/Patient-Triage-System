@@ -3,7 +3,7 @@
 #define IOABLE_H
 #include <iostream>
 
-namespace seneca {
+namespace triage {
 	class IOAble {
 	public:
 		virtual std::ostream& write(std::ostream&) const = 0;

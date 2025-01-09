@@ -5,7 +5,7 @@
 #include "Utils.h"
 #include "Time.h"
 using namespace std;
-namespace seneca {
+namespace triage {
     // start provided code
     bool debug = false;
     Utils U;
@@ -24,7 +24,7 @@ namespace seneca {
         return mins;
     }
     void Utils::setDebugTime(int hour, int min) {
-        seneca::debug = true;
+        triage::debug = true;
         m_testMins = hour * 60 + min;
     }
 

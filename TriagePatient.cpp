@@ -2,7 +2,7 @@
 
 int nextTriageTicket = 1;
 
-namespace seneca {
+namespace triage {
     TriagePatient::TriagePatient() : Patient(nextTriageTicket) {
         m_symptoms = nullptr;
         nextTriageTicket++;

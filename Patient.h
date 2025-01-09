@@ -5,7 +5,7 @@
 #include "IOAble.h"
 #include "Ticket.h"
 
-namespace seneca {
+namespace triage {
 	class Patient : public IOAble {
 		char* m_name;
 		int m_OHIP;

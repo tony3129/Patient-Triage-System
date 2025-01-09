@@ -1,6 +1,6 @@
 #include "Patient.h"
 
-namespace seneca {
+namespace triage {
 	//construct m_ticket and set member variables to safe state
 	Patient::Patient(int number) : m_ticket(number) {
 		m_name = nullptr;

@@ -1,6 +1,6 @@
 #include "PreTriage.h"
 
-namespace seneca{
+namespace triage{
     PreTriage::PreTriage(const char* fileName) : m_contaigenAvgTime(15), m_triageAvgTime(5){
         if(fileName!=nullptr){
             //initialize all member variables

@@ -3,7 +3,7 @@
 #include "PreTriage.h"
 #include "Utils.h"
 using namespace std;
-using namespace seneca;
+using namespace triage;
 void copyFile(const char* des, const char* src) {
    ifstream infile(src);
    ofstream outfile(des);
@@ -27,7 +27,7 @@ void theApp( ) {
 }
 int main() {
    copyFile( "smalldata.csv", "smalldata.csv.bak" );
-   seneca::debug = true;
+   triage::debug = true;
    U.setDebugTime(8, 41);
    theApp();
    displayFile( "smalldata.csv" );

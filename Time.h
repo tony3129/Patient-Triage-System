@@ -2,7 +2,7 @@
 #define TIME_H
 #include "Utils.h"
 
-namespace seneca {
+namespace triage {
 	class Time {
 		int m_minutes;
 	public:

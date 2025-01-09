@@ -1,9 +1,9 @@
-#ifndef SENECA_UTILS_H_
-#define SENECA_UTILS_H_
+#ifndef UTILS_H_
+#define UTILS_H_
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
-namespace seneca {
+namespace triage {
     class Utils {
         /// <summary>
         /// Start point for the simulated time
@@ -45,12 +45,12 @@ namespace seneca {
         int strcmp(const char* s1, const char* s2)const;
     };
     /// <summary>
-       /// making seneca::debug variable global to all the files
+       /// making triage::debug variable global to all the files
        /// which include "Utils.h"
        /// </summary>
     extern bool debug;
     /// <summary>
-    /// making seneca::U "Utils" object global to all the files which include "Utils.h"
+    /// making triage::U "Utils" object global to all the files which include "Utils.h"
     /// </summary>
     extern Utils U;
 

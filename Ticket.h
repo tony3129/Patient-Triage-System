@@ -1,9 +1,9 @@
-#ifndef SENECA_TICKET_H_
-#define SENECA_TICKET_H_
+#ifndef TICKET_H_
+#define TICKET_H_
 #include <iostream>
 #include "Time.h"
 #include "IOAble.h"
-namespace seneca {
+namespace triage {
     class Ticket :public IOAble {
         Time m_time;
         int m_number;

@@ -1,7 +1,7 @@
 //Input output management
 #include "IOAble.h"
 
-namespace seneca {
+namespace triage {
 
 	IOAble::~IOAble() {
 		//do nothing

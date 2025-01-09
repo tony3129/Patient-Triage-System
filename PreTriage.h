@@ -8,7 +8,7 @@
 #include "Menu.h"
 #include <fstream>
 
-namespace seneca{
+namespace triage{
     class PreTriage{
         Time m_contaigenAvgTime;
         Time m_triageAvgTime;

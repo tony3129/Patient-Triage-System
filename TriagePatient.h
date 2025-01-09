@@ -5,7 +5,7 @@
 #define MAX_SYMPTOM 511
 
 
-namespace seneca {
+namespace triage {
     class TriagePatient : public Patient {
         char* m_symptoms;
     public:

@@ -2,7 +2,7 @@
 #define MENU_H
 #include "Utils.h"
 
-namespace seneca {
+namespace triage {
 	class Menu {
 		char* m_text;
 		int m_menuOptions;
